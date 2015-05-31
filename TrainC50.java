@@ -43,7 +43,7 @@ public class TrainC50 {
 	String trainFileName = "C50_all_substrings_lowercase_5grams_train.arff";
 	String testFileDir = trainFileDir;
 	String testFileName = "C50_all_substrings_lowercase_5grams_test.arff";
-	String outFileDir = trainFileDir + "part5\\";
+	String outFileDir = trainFileDir;
 	String outPredictFileName = "C50_result_predict_fold_";
 	String outActualFileName = "C50_result_actual_fold_";
 	String outUnknownClassFile = "C50_unknownClass.txt";
